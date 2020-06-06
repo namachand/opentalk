@@ -1,0 +1,21 @@
+.storyCard{
+    display: flex;
+    justify-content: center;
+}
+.pageList{
+    display:flex;
+    justify-content: center;
+}
+.myStory{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+
+ }
+ .myTitle{
+     font-size: larger;
+ }
+.likedStory{
+    color: mediumturquoise;  
+}

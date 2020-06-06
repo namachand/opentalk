@@ -1,0 +1,13 @@
+/* .showingStory{
+    top:10px;
+    display: flex;
+    justify-content: center;
+}
+.showingTitle{
+    top:10px;
+    display: flex;
+    justify-content: center;
+} */
+.nooutline:focus{
+border-bottom-style: groove;
+}

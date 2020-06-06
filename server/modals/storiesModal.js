@@ -1,0 +1,36 @@
+const mongoose=require('mongoose');
+const storiesSchema=new mongoose.Schema({
+mycategory:{
+type:String,
+required:true
+},
+mytitle:{
+type:String,
+required:true
+},
+mystory:{
+    type:String,
+    required:true
+},
+myemail:{
+type:String,
+required:true
+},
+userId:{
+type:String,
+default:""
+},
+likes:{
+type:Number,
+default:0
+},
+views:{
+type:Number,
+default:0
+},
+date:{
+    type:Date,
+    default:Date.now()
+}
+});
+module.exports=mongoose.model('UserStories',storiesSchema);

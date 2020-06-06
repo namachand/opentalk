@@ -1,0 +1,13 @@
+.profileText{
+    font-size: xx-large;
+}
+.profileTt{
+    font-size: medium;
+    color: grey;
+}
+.dateOfMyStory{
+    font-size: small;
+    float: right;
+    margin-bottom: 20px;
+}
+
